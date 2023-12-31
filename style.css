@@ -75,5 +75,63 @@ body {
     padding: 20px;
 }
 .card_content h3{
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+.bottom_section{
+    display: flex;
+}
+.contact{
+    background-color: #515603;;
+}
+.about{
+    background-color: #722300;;
+}
+.contact,.about{
+    min-height: 300px;
+    padding: 32px;
+    color: #fff;
+}
+.about h2,.contact h2{
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.about p,.contact p{
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #000;
+    padding: 20px;
+    color: #fff;
+}
+@media(max-width:786px){
+    .hero_section{
+        min-height: 50vh;
+    }
+    .text_container{
+        padding: 10px;
+        text-align: center;
+    }
+    .lg_text{
+        font-size: 32px;
+    }
+    .black_box h2{
+        font-size: 24px;
+    }
+    .black_box h2 span{
+        font-weight: 400;
+        font-size: 32px;
+    }
+    .bottom_section{
+       flex-direction: column;
+    }
+    h1{
+        font-size: 32px;
+    }
+    .about h2,.contact h2{
+        font-size: 32px;
+        
+    }
 }
